@@ -56,7 +56,7 @@ def fetch_weather_data(url):
         print(f"An error occurred: {err}")
 
 # URL for the weather data
-weather_url = 'https://www.accuweather.com/en/np/national/satellite'
+weather_url = 'https://api.openweathermap.org/data/2.5/weather?appid=205dcbfda4257198975aa78dec8e4c19&units=metric&q=';
 
 # Fetch the weather data
 fetch_weather_data(weather_url)
